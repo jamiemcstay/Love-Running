@@ -191,7 +191,15 @@ main {
     border: 2px solid white; 
 }
 
-#
+/*Gallery Styles*/
+#photos img {
+    width: 100%; 
+    line-height: 1em; 
+}
+
+#photos {
+    line-height: 0;
+}
 
 /* styles for footer*/
 #social-networks {
