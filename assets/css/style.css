@@ -248,16 +248,13 @@ main {
 
 @media screen and (min-width: 1200px) {
     #benefits {
-        display: flex; 
-       
-        
+        display: flex;    
     }
 
     #benefits > div {
-        flex: 1; 
-       
+        flex: 1;    
     }
-
+    
     #benefits-image {
         order: 0;
     }
