@@ -217,6 +217,14 @@ main {
 }
 
 
+/* Media query for large and landscape phones (576px and up)*/
+
+@media screen and (min-width: 576px) {
+   #photos {
+    column-count: 2;
+    column-gap: 0;
+   } 
+}
 
 /*Media query: tablets nad larger (768px and wider)*/
 
@@ -277,11 +285,23 @@ main {
         align-self: flex-end; 
     }
 
+    #photos {
+        column-count: 3; 
+    }
+
+
 }
+
+/*large devices (laptops and desktops, 992px and up)*/ 
 
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*gallery*/
+    #photos {
+        column-count: 4;
     }
 }
 
@@ -308,7 +328,7 @@ main {
 
     #benefits-physical > div {
         align-self: flex-end; 
-    }
+    }   
 
 }
 
